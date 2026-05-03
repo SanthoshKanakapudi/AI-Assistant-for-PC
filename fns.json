@@ -1,0 +1,331 @@
+
+[
+  {
+    "name": "active_windows",
+    "description": "Speaks up the list of active windows",
+    "parameters": {}
+  },
+  {
+    "name": "close_window_by_title",
+    "description": "Closes the given active title window",
+    "parameters": {
+      "target_title": "str"
+    }
+  },
+  {
+    "name": "close_all_except",
+    "description": "Closes all other active windows except the given title window",
+    "parameters": {
+      "title_to_keep": "str"
+    }
+  },
+  {
+    "name": "close_window",
+    "description": "Closes the active window using Alt+F4",
+    "parameters": {}
+  },
+  {
+    "name": "close_all_windows",
+    "description": "Closes all visible windows except system windows",
+    "parameters": {}
+  },
+  {
+    "name": "minimize_window",
+    "description": "Minimizes the active window",
+    "parameters": {}
+  },
+  {
+    "name": "reload",
+    "description": "Refreshes the current window or page (Ctrl+R)",
+    "parameters": {}
+  },
+  {
+    "name": "maximize_window",
+    "description": "Maximizes the active window",
+    "parameters": {}
+  },
+  {
+    "name": "snap_left",
+    "description": "Snaps the window to the left side of the screen",
+    "parameters": {}
+  },
+  {
+    "name": "snap_right",
+    "description": "Snaps the window to the right side of the screen",
+    "parameters": {}
+  },
+  {
+    "name": "type_or_search",
+    "description": "Types the provided text into the active input field",
+    "parameters": {
+      "text": "str"
+    }
+  },
+  {
+    "name": "mute_volume",
+    "description": "Toggles system mute",
+    "parameters": {}
+  },
+  {
+    "name": "press_key",
+    "description": "Presses a single keyboard key",
+    "parameters": {
+      "key": "str"
+    }
+  },
+  {
+    "name": "click_right",
+    "description": "Presses the right arrow key",
+    "parameters": {}
+  },
+  {
+    "name": "click_left",
+    "description": "Presses the left arrow key",
+    "parameters": {}
+  },
+  {
+    "name": "click_up",
+    "description": "Presses the up arrow key",
+    "parameters": {}
+  },
+  {
+    "name": "click_win",
+    "description": "Presses the Windows key",
+    "parameters": {}
+  },
+  {
+    "name": "click_down",
+    "description": "Presses the down arrow key",
+    "parameters": {}
+  },
+  {
+    "name": "enter",
+    "description": "Presses Enter key",
+    "parameters": {}
+  },
+  {
+    "name": "escape",
+    "description": "Presses Escape key",
+    "parameters": {}
+  },
+  {
+    "name": "backsp",
+    "description": "Presses Backspace key",
+    "parameters": {}
+  },
+  {
+    "name": "tabsp",
+    "description": "Presses Tab key",
+    "parameters": {}
+  },
+  {
+    "name": "paste",
+    "description": "Pastes clipboard content (Ctrl+V)",
+    "parameters": {}
+  },
+  {
+    "name": "startrecord",
+    "description": "Starts screen recording (Win+Alt+R)",
+    "parameters": {}
+  },
+  {
+    "name": "stoprecord",
+    "description": "Stops screen recording (Win+Alt+R)",
+    "parameters": {}
+  },
+  {
+    "name": "selectall",
+    "description": "Selects all content (Ctrl+A)",
+    "parameters": {}
+  },
+  {
+    "name": "copy",
+    "description": "Copies selected content (Ctrl+C)",
+    "parameters": {}
+  },
+  {
+    "name": "delete",
+    "description": "Presses Delete key",
+    "parameters": {}
+  },
+  {
+    "name": "tab",
+    "description": "Presses Tab key",
+    "parameters": {}
+  },
+  {
+    "name": "left_mouse_click",
+    "description": "Performs left mouse click",
+    "parameters": {}
+  },
+  {
+    "name": "right_mouse_click",
+    "description": "Performs right mouse click",
+    "parameters": {}
+  },
+  {
+    "name": "move_mouse",
+    "description": "Moves mouse pointer to given x,y coordinates",
+    "parameters": {
+      "x": "int",
+      "y": "int"
+    }
+  },
+  {
+    "name": "set_volume",
+    "description": "Sets system volume to specified percent",
+    "parameters": {
+      "percent": "int"
+    }
+  },
+  {
+    "name": "increase_volume",
+    "description": "Increases volume by step percent",
+    "parameters": {
+      "step": "int"
+    }
+  },
+  {
+    "name": "decrease_volume",
+    "description": "Decreases volume by step percent",
+    "parameters": {
+      "step": "int"
+    }
+  },
+  {
+    "name": "increase_brightness",
+    "description": "Increases screen brightness by step percent",
+    "parameters": {
+      "step": "int"
+    }
+  },
+  {
+    "name": "decrease_brightness",
+    "description": "Decreases screen brightness by step percent",
+    "parameters": {
+      "step": "int"
+    }
+  },
+  {
+    "name": "set_brightness",
+    "description": "Sets screen brightness to specified percent",
+    "parameters": {
+      "percent": "int"
+    }
+  },
+  {
+    "name": "is_window_visible",
+    "description": "Checks if a window with the given app name is visible",
+    "parameters": {
+      "app_name": "str"
+    }
+  },
+  {
+    "name": "open_app",
+    "description": "Opens an application present in Windows system using search",
+    "parameters": {
+      "app_name": "str"
+    }
+  },
+  {
+    "name": "switch_tab",
+    "description": "Switches browser tab in given direction",
+    "parameters": {
+      "direction": "str"
+    }
+  },
+  {
+    "name": "switch_window",
+    "description": "Switches between open windows in given direction",
+    "parameters": {
+      "direction": "str"
+    }
+  },
+  {
+    "name": "show_desktop",
+    "description": "Shows desktop (Win+D)",
+    "parameters": {}
+  },
+  {
+    "name": "open_new_tab",
+    "description": "Opens new browser tab (Ctrl+T)",
+    "parameters": {}
+  },
+  {
+    "name": "close_tab",
+    "description": "Closes current browser tab (Ctrl+W)",
+    "parameters": {}
+  },
+  {
+    "name": "wifi_off",
+    "description": "Turns off Wi-Fi",
+    "parameters": {}
+  },
+  {
+    "name": "wifi_on",
+    "description": "Turns on Wi-Fi",
+    "parameters": {}
+  },
+  {
+    "name": "Quickpanel",
+    "description": "Opens quickpanel and shows options",
+    "parameters": {}
+  },
+  {
+    "name": "ask_yes_no",
+    "description": "Shows a Yes/No dialog with the provided message",
+    "parameters": {
+      "text": "str"
+    }
+  },
+  {
+    "name": "shutdown",
+    "description": "Shuts down the system after confirmation",
+    "parameters": {}
+  },
+  {
+    "name": "restart",
+    "description": "Restarts the system after confirmation",
+    "parameters": {}
+  },
+  {
+    "name": "take_screenshot",
+    "description": "Takes a screenshot",
+    "parameters": {}
+  },
+  {
+    "name": "lockscreen",
+    "description": "Locks the screen (Win+L)",
+    "parameters": {}
+  },
+  {
+    "name": "speak",
+    "description": "Uses text-to-speech to speak the given text",
+    "parameters": {
+      "text": "str"
+    }
+  },
+  {
+    "name": "take_photo",
+    "description": "Takes a photo and opens the file in default app",
+    "parameters": {}
+  },
+  {
+    "name": "open_web_request",
+    "description": "Opens link in the given web browser",
+    "parameters": {
+      "url": "str",
+      "browser_name": "str"
+    }
+  },
+  {
+    "name": "get_system_location",
+    "description": "Tells system location by accessing location feature",
+    "parameters": {}
+  },
+  {
+    "name": "get_weather",
+    "description": "Gets weather by present situation",
+    "parameters": {}
+  }
+]
